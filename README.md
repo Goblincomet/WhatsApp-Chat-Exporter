@@ -7,9 +7,9 @@ A customizable Android and iPhone Whatsapp database parser that will give you th
 **If you plan to uninstall WhatsApp or delete your WhatsApp account, please make a backup of your WhatsApp database. You may want to use this exporter again on the same database in the future as the exporter develops**
 
 # Usage
-**Usage in README may be removed in the future. Check the usage in [Wiki](https://github.com/KnugiHK/Whatsapp-Chat-Exporter/wiki)**.
+**Usage in README may be removed in the future. Check the usage in [Wiki](https://github.com/Goblincomet/Whatsapp-Chat-Exporter/wiki)**.
 
-**If you want to use the old release (< 0.5) of the exporter, please follow the [old usage guide](https://github.com/KnugiHK/Whatsapp-Chat-Exporter/wiki/Old-Usage#usage)**.
+**If you want to use the old release (< 0.5) of the exporter, please follow the [old usage guide](https://github.com/Goblincomet/Whatsapp-Chat-Exporter/wiki/Old-Usage#usage)**.
 
 First, install the exporter by:
 ```shell
@@ -23,7 +23,7 @@ cd working_wts
 ```
 ## Working with Android
 ### Unencrypted WhatsApp database
-Extract the WhatsApp database with whatever means, one possible means is to use the [WhatsApp-Key-DB-Extractor](https://github.com/KnugiHK/WhatsApp-Key-DB-Extractor)
+Extract the WhatsApp database with whatever means, one possible means is to use the [WhatsApp-Key-DB-Extractor](https://github.com/Goblincomet/WhatsApp-Key-DB-Extractor)
 
 After you obtain your WhatsApp database, copy the WhatsApp database and media folder to the working directory. The database is called msgstore.db. If you also want the name of your contacts, get the contact database, which is called wa.db. And copy the WhatsApp (Media) directory from your phone directly.
 
@@ -87,9 +87,9 @@ Do an iPhone/iPad Backup with iTunes first.
 ### Encrypted iOS/iPadOS Backup
 **If you are working on unencrypted iOS/iPadOS backup, skip this**
 
-If you want to work on an encrypted iOS/iPadOS Backup, you should install iphone_backup_decrypt from [KnugiHK/iphone_backup_decrypt](https://github.com/KnugiHK/iphone_backup_decrypt) before you run the extract_iphone_media.py.
+If you want to work on an encrypted iOS/iPadOS Backup, you should install iphone_backup_decrypt from [/iphone_backup_decrypt](https://github.com//iphone_backup_decrypt) before you run the extract_iphone_media.py.
 ```sh
-pip install git+https://github.com/KnugiHK/iphone_backup_decrypt
+pip install git+https://github.com/Goblincomet/iphone_backup_decrypt
 ```
 ### Extracting
 Simply invoke the following command from shell, remember to replace the username and device id correspondingly in the command.
@@ -149,7 +149,7 @@ WhatsApp Chat Exporter: 0.9.5 Licensed with MIT
 ```
 
 # To do
-See [issues](https://github.com/KnugiHK/Whatsapp-Chat-Exporter/issues).
+See [issues](https://github.com/Goblincomet/Whatsapp-Chat-Exporter/issues).
 
 # Copyright
 This is a MIT licensed project.
